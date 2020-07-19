@@ -12,8 +12,6 @@ body{
     background-color: #F0FFF0;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-bottom: 50px;
-
 }
 
 .green-button{
@@ -28,6 +26,7 @@ body{
     border: none;
     background-color: #21B573;
     padding: 12px 28px;
+    margin-top: 10px;
     border-radius: 33px;
     color: white;
 }
@@ -44,7 +43,6 @@ body{
 
 .container{
     margin-bottom: 40px;
-    border: 1px solid red;
 }
 
 .illustration img{
@@ -57,6 +55,7 @@ body{
 
 .top-text{
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .margin-top-text{
@@ -64,7 +63,7 @@ body{
 }
 
 .black-header h1{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 48px;
 }
 
@@ -87,6 +86,10 @@ body{
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+}
+
+.testimonial{
+    padding-top: 30px;
 }
 
 .online-courses h1{
@@ -151,7 +154,7 @@ body{
     background-color: white;
     float: left;
     color: #585859;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card-footimg1{
@@ -176,4 +179,40 @@ body{
 
 .people-icon{
     width: 100%;
+}
+
+.message-part{
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.footer-part{
+    background-color: #282531;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;    
+}
+
+footer{
+    background-color: #282531;
+    color: white;
+}
+
+footer{
+    color: #CDCDCD;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 16px;
+    color: #CDCDCD;
+}
+
+.footer-text h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
 }
