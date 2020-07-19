@@ -5,7 +5,7 @@ body{
 
 .top-part{
     background-color: #F0FFF0;
-    border: 1px solid red;
+    padding-bottom: 40px;
 }
 
 .green-button{
@@ -14,7 +14,6 @@ body{
     padding: 12px 28px;
     border-radius: 33px;
     color: white;
-    font-weight: 700;
 }
 
 .green-button:hover{
@@ -35,6 +34,28 @@ body{
     width: 90%;
 }
 
-.col-md-5{
-    border: 1px solid orange;
+.gray-text{
+    color: gray;
+}
+
+.top-text{
+    margin-bottom: 20px;
+}
+
+.margin-top-text{
+    margin-top: 50px;
+}
+
+.black-header h1{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.green-header{
+    color: #21B573 ;
+}
+
+.orange-text{
+    color: #FD511A;
+    font-size: 16px;
 }
