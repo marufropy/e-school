@@ -8,8 +8,24 @@ body{
     padding-bottom: 40px;
 }
 
+.last-part{
+    background-color: #F0FFF0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
 .green-button{
     text-decoration: none;
+    background-color: #21B573;
+    padding: 12px 28px;
+    border-radius: 33px;
+    color: white;
+}
+
+.mail-button{
+    border: none;
     background-color: #21B573;
     padding: 12px 28px;
     border-radius: 33px;
@@ -80,9 +96,27 @@ body{
     text-align: center;
 }
 
-.card{
+.course-card{
     border-radius: 18px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.info-card{
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    border: none;
+}
+
+.info-card-special{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.info-icon{
+    padding: 30px;
 }
 
 .card-main-img{
@@ -94,16 +128,21 @@ body{
 .card-title{
     font-size: 24px;
     color: #413960;
-    font-weight: 500;
+    font-weight: 700;
 }
 
-.card-text{
+.course-card-text{
     font-size: 16px;
     color: #585859;
     margin-bottom: 40px;
 }
 
-.card-body{
+.info-card-text{
+    font-size: 16px;
+    color: #585859;
+}
+
+.course-card-body{
     margin-bottom: 20px;
 }
 
