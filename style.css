@@ -28,6 +28,7 @@ body{
 
 .container{
     margin-bottom: 40px;
+    border: 1px solid red;
 }
 
 .illustration img{
@@ -58,4 +59,82 @@ body{
 .orange-text{
     color: #FD511A;
     font-size: 16px;
+}
+
+.mid-part{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial h1{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.online-courses h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #413960;
+    text-align: center;
+}
+
+.card{
+    border-radius: 18px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-main-img{
+    border-radius: 11px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 24px;
+    color: #413960;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 16px;
+    color: #585859;
+    margin-bottom: 40px;
+}
+
+.card-body{
+    margin-bottom: 20px;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: white;
+    float: left;
+    color: #585859;
+    font-weight: 500;
+}
+
+.card-footimg1{
+    width: 100%;
+}
+
+.card-footimg2{
+    width: 100%;
+}
+
+.info-date{
+    float: left;
+}
+
+.cal-icon{
+    width: 15%;
+}
+
+.info-cap{
+    float: left;
+}
+
+.people-icon{
+    width: 100%;
 }
